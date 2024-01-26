@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book-NOW</title>
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+            background-color: #2fbe76;
+        }
+
+        .Title {
+            background-color: #c02c39;
+            margin: 0%;
+            padding: 1rem;
+        }
+
+        h1 {
+            font-size: clamp(2rem, 5vw, 6rem);
+            text-align: center;
+            margin: 0%;
+        }
+
+        .Highlight {
+            display: flex;
+            justify-content: space-around;
+            border: 0.5rem solid #000000;
+            padding: 2rem;
+            margin: 0 0 0.5rem 0;
+            color: #000000;
+            font-size: clamp(1.25rem, 3vw, 6rem);
+        }
+
+
+        .Salaar-Poster {
+            width: 225px;
+            height: 300px;
+            object-fit: contain;
+        }
+
+        .Banner {
+            width: 94%;
+            margin: 0 auto;
+            border: 0.15rem solid #000000;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        .Salaar-Pic {
+            width: 94%;
+        }
+
+        .Advertise {
+            width: 88%;
+            margin: 0.25rem auto;
+            border: 0.25rem solid #000000; 
+            padding: 1rem;
+            text-align: center;
+            font-size: clamp(1.25rem, 3vw, 6rem);
+        }
+
+        .section-1 {
+            width: 94%;
+            margin: 0 auto;
+            padding: 0.5rem;
+        }
+
+        h2 {
+            font-size: clamp(1.75rem, 3.5vw, 6rem);
+            margin: 0.5rem 0;
+            color: #000000;
+        }
+
+        .Main-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .Big-Poster {
+            width: 94%;
+            text-align: center;
+            padding: 0.75rem;
+        }
+
+        .Big_Poster {
+            font-size: clamp(1.25rem, 3vw, 5rem);
+        }
+
+        footer {
+            text-align: center;
+            background-color: #000000;
+            color: #ffffff;
+            padding: 0.5rem;
+            font-size: clamp(1.25rem, 3vw, 5rem);
+        }
+
+        @media (min-width: 319px) and (max-width: 767px) {
+            .Salaar-Poster {
+                width: 150px;
+                height: 200px;
+            }
+
+            .Main-card {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 1fr 1fr 1fr;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="Title">
+        <h1>Book-NOW</h1>
+    </div>
+    <div class="Highlight">
+        <div>Movies</div>
+        <div>Event</div>
+        <div>Music</div>
+        <div>Sports</div>
+    </div>
+    <div class="Banner">
+        <img class="Salaar-Pic" src="./Salaar_lag.jpg" alt="Salaar-Poster">
+    </div>
+    <div class="Advertise">
+        <div>!!!Advertisement!!!</div>
+    </div>
+    <div class="section-1">
+        <h2>Recommended Movies</h2>
+        <div class="Main-card">
+            <div><img class="Salaar-Poster" src="Salaar-Poster.jpg" alt="Salaar"></div>
+            <div><img class="Salaar-Poster" src="Salaar-Poster.jpg" alt="Salaar"></div>
+            <div><img class="Salaar-Poster" src="Salaar-Poster.jpg" alt="Salaar"></div>
+            <div><img class="Salaar-Poster" src="Salaar-Poster.jpg" alt="Salaar"></div>
+            <div><img class="Salaar-Poster" src="Salaar-Poster.jpg" alt="Salaar"></div>
+            <div><img class="Salaar-Poster" src="Salaar-Poster.jpg" alt="Salaar"></div>
+        </div>
+    </div>
+    <div class="Big-Poster">
+        <h2 class="Big_Poster">Big Poster</h2>
+    </div>
+    <footer>
+        <p>Copyright &copy;2024-Designed by AK</p>
+    </footer>
+</body>
+</html>
